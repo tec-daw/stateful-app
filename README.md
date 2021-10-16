@@ -16,6 +16,18 @@ Hay un input en el que se pide ingresar un nombre. Este nombre será guardado en
 
 ## Funcionamiento
 ### La página se muestra en su estado inicial\
-![image](https://user-images.githubusercontent.com/36935788/137595373-c6fd5d0d-be20-4e72-96f5-3d5ed63540fd.png)\
+![image](https://user-images.githubusercontent.com/36935788/137595909-eece9329-18ee-4ca5-8de5-e3707a2879fe.png)\
 
 ### Se ingresa el usuario
+![image](https://user-images.githubusercontent.com/36935788/137595919-e17df94c-b03e-407c-ae52-a34c51a747fe.png)\
+
+### Verificamos que se haya guardado el nombre en localStorage
+![image](https://user-images.githubusercontent.com/36935788/137595943-b1f0f77e-bd0c-4c67-91dd-6b328829800d.png)\
+
+### Regargamos la página y veremos el mismo nombre!!!
+![image](https://user-images.githubusercontent.com/36935788/137595969-59c540ed-1571-491c-a7dd-7b12ea6b4392.png)\
+
+### El nombre solo cambiara hasta que se ingrese uno nuevo
+Por el momento seguira en localStorage puede anexarse al código algún metodo para removerlo con:\
+### `localStorage.removeItem('miNombre');`
+![image](https://user-images.githubusercontent.com/36935788/137596025-73de65be-1c04-4c0c-a41a-6f6a73fdac74.png)\
