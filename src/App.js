@@ -30,7 +30,7 @@ function App() {
   useEffect(() => {
     document.title = `Benvenut@ ${name}`;
     //Aun no tengo tan claro el uso de useEffect
-    //Me gustaria tener retro y saber cual es la mejor manera de hacerlo, aqui no lo convierte a string lo cual puede ser un problema si trataramos con una base de datos real
+    //Me gustaria tener retro y saber cual es la mejor manera de hacerlo, con useEffect o un manejador de eventos directamente como handleChange
   
     localStorage.setItem('miNombre', JSON.stringify(name));
 
