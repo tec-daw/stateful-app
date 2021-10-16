@@ -15,4 +15,7 @@ Hay un input en el que se pide ingresar un nombre. Este nombre será guardado en
 
 
 ## Funcionamiento
+### La página se muestra en su estado inicial\
+![image](https://user-images.githubusercontent.com/36935788/137595373-c6fd5d0d-be20-4e72-96f5-3d5ed63540fd.png)\
 
+### Se ingresa el usuario
