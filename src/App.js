@@ -8,13 +8,13 @@ function App() {
   const getNombre = () => {
     try {
         if (nombre === null) {
-            setName("Desconocido")
-            return [];
+        //Si al iniciar la página no hay algún valor guardado en el localStorage el valor por defecto sera Desconocido
+            return ('Desconocido');
         } else {
             return JSON.parse(nombre);
         }
     } catch (err) {
-        return [];
+        return ("");
     }
   };
 
